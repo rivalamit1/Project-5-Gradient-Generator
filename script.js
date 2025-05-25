@@ -12,7 +12,7 @@ function setDirection(value,_this){
     _this.classList.add("active");
     currentDirection = value;
 }
-
+ 
 function generateCode(){
     outputCode.value = `background: linear-gradient(${currentDirection},${colorOne.value},${colorTwo.value});`
 
